@@ -1,0 +1,46 @@
+html {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background: url(../img/fondo.jpg);
+}
+
+h1 {
+    color: #24bcfb;
+}
+
+.carta {
+    transition: transform 0.5s;
+    position: relative;
+    height: 200px;
+    width: 30%;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+}
+
+.interrogante {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.personaje {
+    position: absolute;
+    transform: rotateY(180deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#tiempo {
+    font-size: 50px;
+}
+#reiniciar .btn{
+    color: white;
+    font-size: 25px;
+}
